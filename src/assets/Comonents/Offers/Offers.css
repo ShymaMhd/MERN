@@ -1,0 +1,64 @@
+.white-background{
+ 
+    margin-top: 2%;
+
+}
+h6{
+    padding-top:5%;
+    margin-top: 5%;
+    font-size: 1.2rem;
+    color:rgb(255, 72, 72);
+   text-align: center;
+}
+.p-offers{
+    padding-top: 2%;
+   font-size: 1.9rem;
+    text-align: center;
+}
+.card-image{
+width: 90%;
+height: 50vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center;
+margin: 2% 5%;
+border-radius: 8px;
+}
+
+.villa-price {
+/* margin-top: 4%; */
+background-color: rgb(255, 79, 79);
+
+text-align: center;
+/* padding-top: 6%; */
+margin: 2% 7%;
+}
+.features{
+    padding-top: 6%;
+    margin: 2% 5%;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cards{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+.new-card{
+
+    width: 325px;
+    background-color: rgb(237, 250, 255);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgb(255, 72, 72,0,2);
+    margin: 2px;
+    justify-content: center;
+}

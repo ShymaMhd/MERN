@@ -1,0 +1,10 @@
+.Footer{
+background-color: black;
+
+margin-top: 100%;
+}
+.Footer p{
+     line-height: 3;
+    color: aliceblue;
+    text-align: center;
+ } 

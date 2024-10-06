@@ -1,0 +1,91 @@
+.wrapping{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: center; 
+    /* position: fixed; */
+    /* padding: -10% 0; */
+}
+.text-position{
+position: relative;
+top: 100px;
+}
+.video{
+margin: -5% 17.5% 0% 17.5%;
+
+
+}
+.wrapping p {
+color: aliceblue;
+font-size: 1.2rem;
+
+}
+
+.background{
+    width:90%;
+    height: calc(70vh); /*this give the abbillity of change the hieght of the pictures in the  website  */
+    /* background-color:var(--site-color-01) ; */
+    /* margin-top: -20%; */
+    margin: -12% 5% -15% 5%;
+    /* margin-bottom: -10%; */
+   
+    /* margin: 140px 0 0 0 ; */
+    background-image: url(../../../src/assets/images/villa2.jpg);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    /* justify-items: center; */
+    display: flex;
+
+    }
+ .white-background{
+    /* width: fit-contents; */
+    background-color: rgb(252, 255, 255);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.11);   
+
+   margin: 0 5% 0 5%;
+ } 
+    .index-category{
+        width: 90%;
+        padding: 10px 0; /* 60 from top and bottom and 0 from left and right*/
+        /* background-color: aliceblue; */
+        display: flex;
+        justify-content: center;
+        column-gap: 17.5%;
+         row-gap: 10px;
+        flex-wrap: wrap;
+        }
+
+     .index-category-box{
+         width: 10rem;
+         height: 4.5rem;
+         /* background-color: red; */
+         background-color: rgb(255, 210, 210);
+              display: flex;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+        
+        }
+     .index-category p{
+        color: #000;
+        text-align: center;
+        justify-self: center;
+        /* padding-bottom: 40px; */
+     width: 100%; 
+     text-transform: uppercase;
+     font-size: 2rem;
+     text-decoration:solid; 
+    }
+  
+    .dot {
+        height:45%;
+        width: 45%;
+        background-color: #ff2020;
+        border-radius: 50%;
+        position: relative;
+        /* left: 10px; */
+        top: -30px;
+        left: 6px;
+      }
